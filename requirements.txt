@@ -1,6 +1,1 @@
-pandas
-streamlit
 tensorflow
-time
-PIL
-numpy
