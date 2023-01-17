@@ -28,7 +28,7 @@ def Ap():
     
     @st.cache(allow_output_mutation=True)
     def load_model():
-      model=tf.keras.models.load_model("drive/My Drive/deployment/models/xray_model_80-20.h5")
+      model=tf.keras.models.load_model("Pneumpredict/xray_model_80-20.h5")
       return model
 
     with st.spinner('Please wait, while the model is being loaded..'):
