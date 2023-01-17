@@ -31,7 +31,7 @@ def Ap():
       url = "https://github.com/sabahuddinahmad/Pneumpredict/blob/main/xray_model_80-20.h5"
       resp = requests.get(url)
       with open("xray_model_80-20.h5", "w") as f:
-      f.write(xray_model_80-20.h5)
+        f.write(xray_model_80-20.h5)
       model=tf.keras.models.load_model(xray_model_80-20.h5)
       return model
 
