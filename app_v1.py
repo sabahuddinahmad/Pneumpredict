@@ -32,7 +32,7 @@ def Ap():
       resp = requests.get(url)
       with open("xray_model_80-20.h5", "w") as f:
         f.write(xray_model_80-20.h5)
-      model=tf.keras.models.load_model(xray_model_80-20.h5)
+      model=tf.keras.models.load_model('xray_model_80-20.h5')
       return model
 
     with st.spinner('Please wait, while the model is being loaded..'):
