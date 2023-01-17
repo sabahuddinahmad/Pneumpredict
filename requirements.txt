@@ -1,1 +1,5 @@
 tensorflow
+pandas
+time
+PIL
+numpy
