@@ -37,7 +37,7 @@ def Ap():
       st.title(":red[Pneumpredict: An application for Pneumonia prediction from X-rays]")
           
       from PIL import Image
-      image = Image.open('drive/My Drive/deployment/img_st/compared.jpeg')
+      image = Image.open('./compared.jpeg')
 
       st.image(image, use_column_width=True)
     
