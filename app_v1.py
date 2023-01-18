@@ -45,8 +45,8 @@ def Ap():
     if file is None:
       st.subheader("Please upload an X-ray image using the browse button")
       st.subheader(" ")
-      image = Image.open('./compared.jpg')
-      st.image(image, use_column_width=True)
+      image1 = Image.open('./web_img/compared.JPG')
+      st.image(image1, use_column_width=True)
     
     else:
       st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
@@ -74,8 +74,8 @@ def Ap():
         )
 
 def Di():
-    Di_img = "https://th.bing.com/th/id/R.6a4adb92381749420f7993c484765f04?rik=BpoeC2rvqL2lHQ&riu=http%3a%2f%2fwww.yellowmail.in%2fcss%2fimages%2fdisclaimer.jpg&ehk=9gJva7y2cq1Q%2fu7Sxswpi%2fo1R5aqE93f89aOtmnycWQ%3d&risl=&pid=ImgRaw&r=0"
-    st.image(Di_img, width=600)
+    image2 = Image.open('./web_img/disclaimer.JPG')
+    st.image(image2, use_column_width=True)
     st.header('This App does not substitute for medical advice that you get from a healthcare professional!')
     st.header('') 
     st.subheader('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
