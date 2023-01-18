@@ -4,14 +4,15 @@ import tensorflow as tf
 import time
 from PIL import Image, ImageOps
 import numpy as np
+import webbrowser
 
 st.set_page_config(layout="wide")
 
-options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pneumonia','🤖Application','⚠️Disclaimer','🔖Resources'])
+options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pneumonia','🤖Application','⚠️Disclaimer','🔖Resources', '👨🏻‍💻About me'  ])
 
 def Ho():
-    st.title(":red[Pneumpredict]")
-    st.subheader(":grey[A Web App for Pneumonia prediction using X-Ray image classifications]")
+    st.title(":red[_Pneumpredict_]")
+    st.subheader(":grey[Web App for PNEUMonia PREDICTion using X-Ray image classifications]")
 
     home_img = "https://th.bing.com/th/id/OIP.P_SRM8TgPRk1jWMYSkeQxQHaFR?pid=ImgDet&rs=1"
     st.image(home_img, width=800)
@@ -90,6 +91,23 @@ def Ci():
     st.subheader("3. Inspiration for TensorFlow implementation in image classification on above dataset was from a [Notebook on Kaggle by Amy Jang](https://www.kaggle.com/code/amyjang/tensorflow-pneumonia-classification-on-x-rays).")
     st.subheader("4. To implement TensorFlow in image classification, there is an amazing [tutorial](https://www.tensorflow.org/tutorials/images/classification).")
 
+def Me():
+    st.header(':red[About myself:]') 
+    st.subheader('')
+    st.subheader('My name is Dr. Sabahuddin Ahmad. I developed this application as part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany')
+    st.subheader('Before starting this bootcamp, I did PhD in Computational Biochemistry from University of Duesseldorf, Germany')
+    st.subheader('I will be happy to connect with you on following networks:')
+    
+    linkedin_url = 'https://www.linkedin.com/in/sabahuddinahmad'
+    twitter_url = 'https://twitter.com/sabahahmad_IN'
+
+    if st.button('LinkedIn'):
+        webbrowser.open_new_tab(linkedin_url)
+        
+    if st.button('Twitter'):
+        webbrowser.open_new_tab(twitter_url)    
+      
+    
 
 if options == '🏠Home':
     Ho()
@@ -101,5 +119,7 @@ elif options == '⚠️Disclaimer':
     Di()
 elif options == '🔖Resources':
     Ci()
+ elif options == '👨🏻‍💻About me':
+    Me()
 
       
