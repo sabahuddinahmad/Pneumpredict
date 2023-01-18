@@ -34,7 +34,7 @@ def Ap():
       model=load_model()
 
     def main():
-      st.title(":red[Pneumpredict: Web App for Pneumonia prediction from X-ray images]")
+      st.title(":red[Pneumonia prediction using Pneumpredict]")
     
     if __name__ == '__main__':
       main()
