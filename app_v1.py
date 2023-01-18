@@ -40,10 +40,10 @@ def Ap():
     if __name__ == '__main__':
       main()
 
-    file = st.file_uploader("Upload X-ray image here :point_down:", accept_multiple_files=False, help="Only one file at a time. The image should be of high quality")
+    file = st.file_uploader("accept_multiple_files=False, help="Only one file at a time. The image should be of high quality")
 
     if file is None:
-      st.subheader("Please upload an X-ray image using the browse button")
+      st.subheader("Please upload an X-ray image using the browse button :point_down:")
       st.subheader(" ")
       image1 = Image.open('./web_img/compared.JPG')
       st.image(image1, use_column_width=True)
