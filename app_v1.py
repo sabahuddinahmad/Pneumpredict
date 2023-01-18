@@ -44,7 +44,7 @@ def Ap():
     if file is None:
       st.subheader("Please upload an X-ray image using the browse button")
       st.subheader(" ")
-      image = Image.open('./compared.jpeg')
+      image = Image.open('./compared.jpg')
       st.image(image, use_column_width=True)
     
     else:
