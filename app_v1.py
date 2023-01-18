@@ -11,7 +11,7 @@ options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pne
 
 def Ho():
     st.title(":red[Pneumpredict]")
-    st.subheader(":grey[An application that classifies X-ray image of Lungs into Normal or Pneumonia]")
+    st.subheader(":grey[A Web App for Pneumonia prediction using X-Ray image classifications]")
 
     home_img = "https://th.bing.com/th/id/OIP.P_SRM8TgPRk1jWMYSkeQxQHaFR?pid=ImgDet&rs=1"
     st.image(home_img, width=800)
@@ -34,7 +34,7 @@ def Ap():
       model=load_model()
 
     def main():
-      st.title(":red[Pneumpredict: An application for Pneumonia prediction from X-rays]")
+      st.title(":red[Pneumpredict: Web App for Pneumonia prediction from X-ray images]")
     
     if __name__ == '__main__':
       main()
@@ -42,10 +42,10 @@ def Ap():
     file = st.file_uploader("Upload X-ray image here :point_down:", accept_multiple_files=False, help="Only one file at a time. The image should be of high quality")
 
     if file is None:
-      st.text("Please upload an X-ray image using the browse button")
+      st.subheader("Please upload an X-ray image using the browse button")
     else:
-      st.text("Thank you for uploading the image. Below you see image which you have just uploaded!")
-      st.text("Scroll down to see the prediction results...")  
+      st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
+      st.subheader("Scroll down to see the prediction results...")  
       with st.spinner('Processing your image now.......'):
 
         path = file
