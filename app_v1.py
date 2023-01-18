@@ -96,18 +96,8 @@ def Me():
     st.subheader('')
     st.subheader('My name is Dr. Sabahuddin Ahmad. I developed this application as part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany')
     st.subheader('Before starting this bootcamp, I did PhD in Computational Biochemistry from University of Duesseldorf, Germany. I did masters in Bioinformatics. I have over 8 years of experience in Computer aided drug design, Biochemical modeling and simulations.')
-    st.subheader('I will be happy to connect with you on following networks:')
-    
-    linkedin_url = 'https://www.linkedin.com/in/sabahuddinahmad'
-    twitter_url = 'https://twitter.com/sabahahmad_IN'
-
-    if st.button('LinkedIn'):
-        webbrowser.open_new_tab(linkedin_url)
-        
-    if st.button('Twitter'):
-        webbrowser.open_new_tab(twitter_url)    
-      
-    
+    st.subheader('I will be happy to connect with you on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad) and [Twitter](https://twitter.com/sabahahmad_IN).')   
+          
 
 if options == '🏠Home':
     Ho()
