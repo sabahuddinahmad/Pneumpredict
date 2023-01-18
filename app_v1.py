@@ -35,7 +35,7 @@ def Ap():
       model=load_model()
 
     def main():
-      st.title(":red[Pneumonia prediction using _Pneumpredict_]")
+      st.header(":red[Pneumonia prediction using _Pneumpredict_]")
     
     if __name__ == '__main__':
       main()
@@ -44,7 +44,6 @@ def Ap():
 
     if file is None:
       st.subheader("Please upload an X-ray image using the browse button :point_up:")
-      st.subheader(" ")
       image1 = Image.open('./web_img/compared.JPG')
       st.image(image1, use_column_width=True)
     
