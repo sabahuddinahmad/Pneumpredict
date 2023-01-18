@@ -75,7 +75,7 @@ def Di():
     st.header('') 
     st.subheader('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
     st.subheader('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
-    st.subheader('3. App cannot classify underlying medical reasons that corresponds to the infections, for example: bacterial, viral, or smoking, etc.')
+    st.subheader('3. App cannot classify underlying medical reasons that corresponds to the infections, for example: bacterial, viral, smoking, life style etc.')
     st.subheader('4. Healthcare professional will do blood tests and other physical examinations to identify root cause of the infections.')
     
 def Ci():
