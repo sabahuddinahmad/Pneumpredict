@@ -119,7 +119,7 @@ elif options == '⚠️Disclaimer':
     Di()
 elif options == '🔖Resources':
     Ci()
- elif options == '👨🏻‍💻About me':
+elif options == '👨🏻‍💻About me':
     Me()
 
       
