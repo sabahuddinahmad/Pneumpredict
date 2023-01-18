@@ -7,7 +7,7 @@ import numpy as np
 
 st.set_page_config(layout="wide")
 
-options= st.sidebar.radio('Pneumpredict',options=['🏠Home','🏥Pneumonia','🤖Application','⚠️Disclaimer','🔖Citations'])
+options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pneumonia','🤖Application','⚠️Disclaimer','🔖Resources'])
 
 def Ho():
     st.title(":red[Pneumpredict]")
@@ -35,11 +35,6 @@ def Ap():
 
     def main():
       st.title(":red[Pneumpredict: An application for Pneumonia prediction from X-rays]")
-          
-      from PIL import Image
-      image = Image.open('./compared.jpeg')
-
-      st.image(image, use_column_width=True)
     
     if __name__ == '__main__':
       main()
@@ -94,13 +89,13 @@ def Ci():
 
 if options == '🏠Home':
     Ho()
-elif options == '🏥Pneumonia':
+elif options == '🏥About Pneumonia':
     Ab()
 elif options == '🤖Application':
     Ap()
 elif options == '⚠️Disclaimer':
     Di()
-elif options == '🔖Citations':
+elif options == '🔖Resources':
     Ci()
 
       
