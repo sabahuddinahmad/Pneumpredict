@@ -12,7 +12,7 @@ options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pne
 
 def Ho():
     st.title(":red[_Pneumpredict_]")
-    st.subheader(":grey[Web App for PNEUMonia PREDICTion using X-Ray image classifications]")
+    st.subheader(":grey[Web App for PNEUMonia PREDICTion using X-ray image classifications]")
 
     home_img = "https://th.bing.com/th/id/OIP.P_SRM8TgPRk1jWMYSkeQxQHaFR?pid=ImgDet&rs=1"
     st.image(home_img, width=800)
@@ -85,7 +85,7 @@ def Di():
 def Ci():
     st.header(':red[Dataset availibility & recommended resources:]') 
     st.subheader('')
-    st.subheader("1. Dataset used for this project is available as [Chest X-Ray Images at Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).")
+    st.subheader("1. Dataset used for this project is available as [Chest X-ray Images at Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).")
     st.subheader("2. Above dataset is part of a [publication](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5), _Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning_.")
     st.subheader("3. Inspiration for TensorFlow implementation in image classification on above dataset was from a [Notebook on Kaggle by Amy Jang](https://www.kaggle.com/code/amyjang/tensorflow-pneumonia-classification-on-x-rays).")
     st.subheader("4. To implement TensorFlow in image classification, there is an amazing [tutorial](https://www.tensorflow.org/tutorials/images/classification).")
