@@ -44,7 +44,7 @@ def Ap():
 
     if file is None:
       st.subheader("Please upload an X-ray image using the browse button :point_up:")
-      st.write("Sample images can be found [here](https://github.com/sabahuddinahmad/Pneumpredict/tree/main/sample_images)")
+      st.write("Sample images can be found [here](https://github.com/sabahuddinahmad/Pneumpredict/tree/main/sample_images)!")
       image1 = Image.open('./web_img/compared.JPG')
       st.image(image1, use_column_width=True)
     
