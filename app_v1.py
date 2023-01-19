@@ -6,9 +6,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import webbrowser
 
-st.set_page_config(layout="wide")
-[theme]
-base="light"
+st.set_page_config(layout="wide", base="dark")
 
 options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pneumonia','🤖Application','⚠️Disclaimer','🔖Resources', '👨🏻‍💻About me'  ])
 
