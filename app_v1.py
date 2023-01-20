@@ -96,7 +96,7 @@ def Me():
     st.subheader('')
     st.subheader('I am called Dr. Sabahuddin Ahmad, but you can also call me _Sabah_. I developed this application as a part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany.')
     st.subheader('Before starting this bootcamp, I studied Bioinformatics in India and have recently completed my doctoral degree in Computational Biochemistry from University of Duesseldorf, Germany. I have over 8 years of experience in Computer Aided Drug Design, Biochemical Modeling and Simulations.')
-    st.subheader('I will be happy to connect with you on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad) and [Twitter](https://twitter.com/sabahahmad_IN).')   
+    st.subheader('I will be happy to connect with you on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad), [Twitter](https://twitter.com/sabahahmad_IN) or on [Instagram](https://www.instagram.com/dr.sabahuddinahmad/).')   
           
 
 if options == '🏠Home':
