@@ -76,7 +76,7 @@ def Ap():
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
     st.image(image2, use_column_width=True)
-    st.subheader('This App does not substitute for medical advice that you get from a healthcare professional!')
+    st.subheader('This App does not substitute a healthcare professional!')
     st.header('') 
     st.write('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
     st.write('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
