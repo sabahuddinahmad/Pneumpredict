@@ -40,7 +40,7 @@ def Ap():
     if __name__ == '__main__':
       main()
 
-    file = st.file_uploader(" ", accept_multiple_files=False, help="Only one file at a time. The image should be of high quality")
+    file = st.file_uploader(" ", accept_multiple_files=False, help="Only one file at a time. The image should be of good quality")
 
     if file is None:
       st.subheader("Please upload an X-ray image using the browse button :point_up:")
