@@ -76,20 +76,20 @@ def Ap():
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
     st.image(image2, use_column_width=True)
-    st.header('This App does not substitute for medical advice that you get from a healthcare professional!')
+    st.write('This App does not substitute for medical advice that you get from a healthcare professional!')
     st.header('') 
-    st.subheader('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
-    st.subheader('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
-    st.subheader('3. App cannot classify underlying medical reasons that corresponds to the infections, for example: bacterial, viral, smoking, etc.')
-    st.subheader('4. Healthcare professional will do blood tests and other physical examinations to identify root cause of the infections.')
+    st.write('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
+    st.write('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
+    st.write('3. App cannot classify underlying medical reasons that corresponds to the infections, for example: bacterial, viral, smoking, etc.')
+    st.write('4. Healthcare professional will do blood tests and other physical examinations to identify root cause of the infections.')
     
 def Ci():
     st.header(':red[Dataset availibility & recommended resources:]') 
     st.subheader('')
-    st.subheader("1. Dataset used for this project is available as [Chest X-ray Images at Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).")
-    st.subheader("2. Above dataset is part of a [publication](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5), _Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning_.")
-    st.subheader("3. Inspiration for TensorFlow implementation in image classification on above dataset was from a [Notebook on Kaggle by Amy Jang](https://www.kaggle.com/code/amyjang/tensorflow-pneumonia-classification-on-x-rays).")
-    st.subheader("4. To implement TensorFlow in image classification, there is an amazing [tutorial](https://www.tensorflow.org/tutorials/images/classification).")
+    st.write("1. Dataset used for this project is available as [Chest X-ray Images at Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).")
+    st.write("2. Above dataset is part of a [publication](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5), _Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning_.")
+    st.write("3. Inspiration for TensorFlow implementation in image classification on above dataset was from a [Notebook on Kaggle by Amy Jang](https://www.kaggle.com/code/amyjang/tensorflow-pneumonia-classification-on-x-rays).")
+    st.write("4. To implement TensorFlow in image classification, there is an amazing [tutorial](https://www.tensorflow.org/tutorials/images/classification).")
 
 def Me():
     st.header(':red[About myself:]') 
