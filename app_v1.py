@@ -12,7 +12,7 @@ options= st.sidebar.radio('PNEUMPREDICT MENU',options=['🏠Home','🏥About Pne
 
 def Ho():
     st.title(":red[_Pneumpredict_]")
-    st.subheader(":grey[Web App for PNEUMonia PREDICTion using X-ray image classifications]")
+    st.write(":grey[Web App for PNEUMonia PREDICTion using X-ray image classifications]")
 
     home_img = "https://th.bing.com/th/id/OIP.P_SRM8TgPRk1jWMYSkeQxQHaFR?pid=ImgDet&rs=1"
     st.image(home_img, width=800)
@@ -76,7 +76,7 @@ def Ap():
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
     st.image(image2, use_column_width=True)
-    st.write('This App does not substitute for medical advice that you get from a healthcare professional!')
+    st.subheader('This App does not substitute for medical advice that you get from a healthcare professional!')
     st.header('') 
     st.write('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
     st.write('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
