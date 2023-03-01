@@ -70,6 +70,7 @@ def Ap():
         f"Uploaded X-ray image looks like this :point_down: and most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
         )
         st.image(img, width=400)
+        st.subheader("Thank you for using Pneumpredict")
 
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
