@@ -49,7 +49,7 @@ def Ap():
       st.image(image1, use_column_width=True)
     
     else:
-      st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!") 
+      st.subheader("Thank you for uploading the image!") 
       with st.spinner('Processing your image now... ..  ..'):
 
         path = file
@@ -57,8 +57,6 @@ def Ap():
         img = tf.keras.utils.load_img(
         path, target_size=(180, 180)
         )
-
-        st.image(img, width=400)
 
         img_array = tf.keras.utils.img_to_array(img)
         img_array = tf.expand_dims(img_array, 0) # Create a batch
@@ -68,6 +66,8 @@ def Ap():
 
         time.sleep(2)
         st.success('Prediction complete!')
+        st.subheader('Below is uploaded image :point_down:')
+        st.image(img, width=400)
         st.subheader(
         f"This X-ray image most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
         )
