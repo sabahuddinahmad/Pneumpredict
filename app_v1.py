@@ -58,7 +58,7 @@ def Ap():
         path, target_size=(180, 180)
         )
 
-        st.image(img, use_column_width=False)
+        st.image(img, use_column_width=True)
 
         img_array = tf.keras.utils.img_to_array(img)
         img_array = tf.expand_dims(img_array, 0) # Create a batch
