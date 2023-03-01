@@ -81,6 +81,7 @@ def Di():
     st.write('2. Do not use prediction results from this App to diagnose or treat any medical or health condition.')
     st.write('3. App cannot classify underlying medical reasons that corresponds to the infections, for example: bacterial, viral, smoking, etc.')
     st.write('4. Healthcare professional will do blood tests and other physical examinations to identify root cause of the infections.')
+    st.write('5. Uplodaded X-ray image is not retained by _Pneumpredict_.')
     
 def Ci():
     st.header(':red[Dataset availibility & recommended resources:]') 
