@@ -49,8 +49,7 @@ def Ap():
       st.image(image1, use_column_width=True)
     
     else:
-      st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
-      st.subheader("Scroll down to see the prediction results...")  
+      st.write("Thank you for uploading the image. Below you see image which you have just uploaded!") 
       with st.spinner('Processing your image now.......'):
 
         path = file
