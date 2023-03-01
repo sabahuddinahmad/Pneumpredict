@@ -59,7 +59,7 @@ def Ap():
         path, target_size=(180, 180)
         )
 
-        st.image(img, use_column_width=True)
+        st.image(img, use_column_width=False)
 
         img_array = tf.keras.utils.img_to_array(img)
         img_array = tf.expand_dims(img_array, 0) # Create a batch
@@ -94,7 +94,7 @@ def Ci():
 def Me():
     st.header(':red[About myself:]') 
     st.subheader('')
-    st.write('I am called Dr. Sabahuddin Ahmad, but you can also call me _Sabah_. I developed this application as a part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany.')
+    st.write('You can call me _Sabah_. I developed this application as a part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany.')
     st.write('Before starting this bootcamp, I studied Bioinformatics in India and have recently completed my doctoral degree in Computational Biochemistry from University of Duesseldorf, Germany. I have working experience of nearly eight years in computer aided drug design, identifying novel and therapeutically potential protein-drug targets using molecular modeling and molecular dynamics simulation studies. As an outcome, I contributed to over ten [publications](https://scholar.google.com/citations?user=fvF831wAAAAJ&hl=en) in high impact journals. I also have experience of nearly three years in high-performance computing (JUWELS).')
     st.write('I will be happy to connect with you on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad), [Twitter](https://twitter.com/sabahahmad_IN) or on [Instagram](https://www.instagram.com/dr.sabahuddinahmad/).')   
           
