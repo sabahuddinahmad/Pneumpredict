@@ -14,7 +14,7 @@ def Ho():
     st.title(":red[_Pneumpredict_]")
     st.write(":grey[Web App for PNEUMonia PREDICTion using X-ray image classifications]")
 
-    home_img = Image.open('./web_img/home.JPG')
+    home_img = Image.open('./web_img/home.jpg')
     st.image(home_img, width=800)
 
 def Ab():
