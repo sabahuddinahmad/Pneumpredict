@@ -50,7 +50,7 @@ def Ap():
     
     else:
       st.subheader("Thank you for uploading X-ray image!") 
-      with st.spinner('Pneumpredict is now processing your image.......'):
+      with st.spinner('_Pneumpredict_ is now processing your image.......'):
 
         path = file
 
@@ -70,7 +70,7 @@ def Ap():
         f"Uploaded X-ray image looks like this :point_down: and most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
         )
         st.image(img, width=400)
-        st.subheader("Thank you for using Pneumpredict")
+        st.subheader("Thank you for using _Pneumpredict_")
 
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
