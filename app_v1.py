@@ -66,10 +66,10 @@ def Ap():
 
         time.sleep(2)
         st.success('Prediction complete!')
-        st.subheader('Below is uploaded image :point_down:')
+        st.subheader('Below :point_down: is uploaded image')
         st.image(img, width=400)
         st.subheader(
-        f"This X-ray image most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
+        f"This image most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
         )
 
 def Di():
