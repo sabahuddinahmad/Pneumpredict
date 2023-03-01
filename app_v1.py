@@ -49,8 +49,8 @@ def Ap():
       st.image(image1, use_column_width=True)
     
     else:
-      st.subheader("Thank you for uploading the image!") 
-      with st.spinner('Processing your image now... ..  ..'):
+      st.subheader("Thank you for uploading X-ray image!") 
+      with st.spinner('Pneumpredict is now processing your image.......'):
 
         path = file
 
@@ -65,12 +65,11 @@ def Ap():
         score = tf.sigmoid(predictions)
 
         time.sleep(2)
-        st.success('Prediction complete!')
-        st.subheader('Below :point_down: is uploaded image')
-        st.image(img, width=400)
+        st.success('Prediction is complete!')
         st.subheader(
-        f"This image most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
+        f"Uploaded X-ray image looks like this :point_down: and most likely belongs to {'Infected lungs' if np.max(score) > 0.5 else 'Normal lungs'}!"
         )
+        st.image(img, width=400)
 
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
