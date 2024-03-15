@@ -94,10 +94,11 @@ def Ci():
 def Me():
     st.header(':red[About myself:]') 
     st.subheader('')
-    st.write('You can call me _Sabah_. I developed this application as a part of final project for Data Science Bootcamp at WBS Coding School, Berlin, Germany.')
-    st.write('Before starting this bootcamp, I studied Bioinformatics in India and have recently completed my doctoral degree in Computational Biochemistry from University of Duesseldorf, Germany. I have working experience of nearly eight years in computer aided drug design, identifying novel and therapeutically potential protein-drug targets using molecular modeling and molecular dynamics simulation studies. As an outcome, I contributed to over ten [publications](https://scholar.google.com/citations?user=fvF831wAAAAJ&hl=en) in high impact journals. I also have experience of nearly three years in high-performance computing (JUWELS).')
-    st.write('I will be happy to connect with you on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad), [Twitter](https://twitter.com/sabahahmad_IN) or on [Instagram](https://www.instagram.com/dr.sabahuddinahmad/).')   
-          
+    st.write('Greetings! I'm Sabah, a computational biochemist passionate about decoding the mysteries of life through molecular modeling & data sceince. With a doctorate in Computational Biochemistry and a background in Bioinformatics, I've contributed to significant research in biomedicine.')
+    st.write('From unraveling the dynamics of membrane proteins to pioneering novel drug discovery methods, my work has been [published](https://scholar.google.com/citations?user=fvF831wAAAAJ&hl=en) in leading journals and has taken me around the globe, collaborating with top researchers.')
+    st.write('Driven by curiosity, I recently immersed myself in data science, completing a 4 months long rigorous bootcamp at WBS Coding School in Berlin. There for the final project (3 weeks long), I developed '_Pneumpredict_,' a tool using machine learning to classify lung X-rays and identify lung infections.')
+    st.write('Connect with me on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad) or follow me on [Twitter](https://twitter.com/sabahahmad_IN) to stay updated on my latest projects and professional endeavors.')   
+    st.write('Let's connect, collaborate, and explore new horizons together!')      
 
 if options == '🏠Home':
     Ho()
