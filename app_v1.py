@@ -98,7 +98,7 @@ def Me():
     st.write('From unraveling the dynamics of membrane proteins to pioneering novel drug discovery methods, my work has been [published](https://scholar.google.com/citations?user=fvF831wAAAAJ&hl=en) in leading journals and has taken me around the globe, collaborating with top researchers.')
     st.write('Driven by curiosity, I recently immersed myself in data science, completing a 4 months long rigorous bootcamp at WBS Coding School in Berlin. There for the final project (3 weeks long), I developed _Pneumpredict_, a tool using machine learning to classify lung X-rays and identify lung infections.')
     st.write('Connect with me on [LinkedIn](https://www.linkedin.com/in/sabahuddinahmad) or follow me on [Twitter](https://twitter.com/sabahahmad_IN) to stay updated on my latest projects and professional endeavors.')   
-    st.write('Let's connect, collaborate, and explore new horizons together!')      
+    st.write('Let us connect, collaborate, and explore new horizons together!')      
 
 if options == '🏠Home':
     Ho()
