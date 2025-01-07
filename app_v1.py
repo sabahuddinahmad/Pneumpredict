@@ -46,7 +46,7 @@ def Ap():
       st.subheader("Please upload an X-ray image using the browse button :point_up:")
       st.write("Sample images can be found [here](https://github.com/sabahuddinahmad/Pneumpredict/tree/main/sample_images) !")
       image1 = Image.open('./web_img/compared.JPG')
-      st.image(image1, use_column_width=True)
+      st.image(image1, use_container_width=True)
     
     else:
       st.subheader("Thank you for uploading X-ray image!") 
@@ -74,7 +74,7 @@ def Ap():
 
 def Di():
     image2 = Image.open('./web_img/disclaimer.JPG')
-    st.image(image2, use_column_width=True)
+    st.image(image2, use_container_width=True)
     st.subheader('This App does not substitute a healthcare professional!')
     st.header('') 
     st.write('1. Accuracy of prediction depends on the datasets which were used for training the model within this App, and also depends on the quality of image provided.')
